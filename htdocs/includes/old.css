@@ -1,0 +1,81 @@
+.section {
+	border:solid 2px #000000;
+	margin-bottom:20px;
+}
+
+.section_title {
+	background-color:#BEBEBE;
+	font-family:arial;
+	color:#666;
+	font-weight:bold;
+	font-size:14px;
+	padding:4px;
+	border-bottom-style:solid;
+	border-color:#666;
+	border-width:2px;
+	background-image:url(../gfx/section_title_bg.jpg);
+}
+
+.section_body {
+	padding:4px;
+	background-color:#fff;
+	color:#393939;
+	text-align:justify;
+}
+
+.section_body td {
+	color:#393939;
+}
+
+
+
+.field_title {
+	font-weight:bold;
+	vertical-align:top;
+}
+
+.button {
+	font-family:verdana;
+	font-size:11px;
+	color:#333333;
+	padding:2px;
+	padding-left:10px;
+	padding-right:10px;
+	font-weight:bold;
+
+}
+
+input, select {
+	background: white;
+	color: black;
+	border: 1px solid #888899;
+}
+
+legend {
+        padding: 0 2px;
+}
+
+fieldset label {
+  line-height: 1.8;
+  width: 120px;
+}
+
+.err, .ok {
+	padding:4px;
+	font-weight:bold;
+	margin:10px;
+	font-size:14px;
+	font-family:arial;
+}
+
+.err {
+	background-color:#FFCCCC;
+	border:solid 2px #993333;
+	color:#993333;
+}
+
+.ok {
+	background-color:#CCFFCC;
+	border:solid 2px #339933;
+	color:#339933;
+}

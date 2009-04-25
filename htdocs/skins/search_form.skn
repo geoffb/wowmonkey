@@ -1,0 +1,9 @@
+<form method="get" action="search.php">
+Search
+<select name="t">
+	<option value="0">Everything</option>
+	<option value="1">Items</option>
+	<option value="2">Quests</option>
+</select>
+for <input name="s" type="text" value="{SEARCH_VALUE}" /> <input type="submit" value="Search" />
+</form>

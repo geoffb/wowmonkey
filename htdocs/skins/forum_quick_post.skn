@@ -1,0 +1,23 @@
+<div class="section">
+	<div class="section_title">Quick Reply</div>
+	<div class="section_body">
+		<form action="post.php" method="post">
+			<input type="hidden" name="post_user_id" value="{SESSION_USER_ID}" />
+			<input type="hidden" name="post_thread_id" value="{THREAD_ID}" />
+			<table>
+				<tr>
+					<td class="field_title">User:</td>
+					<td>{SESSION_USER_NAME}</td>
+				</tr>
+				<tr>
+					<td class="field_title">Message:</td>
+					<td><textarea name"post_message"></textarea></td>
+				</tr>
+				<tr>
+					<td colspan="2"><input class="button" type="submit" value="Post Message" /></td>
+				</tr>
+			</table>
+		</form>
+	</div>
+</div>
+

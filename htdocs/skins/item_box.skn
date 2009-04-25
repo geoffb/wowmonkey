@@ -1,0 +1,55 @@
+<div class="wowitem">
+	<table>
+
+		<tr><td colspan="2"><span class="q{QUALITY_ID}">{NAME}</span></td></tr>
+
+		#begin_flag:bond#
+		<tr><td colspan="2">{BOND_TYPE}</td></tr>
+		#end_flag:bond#
+
+		#begin_flag:unique#
+		<tr><td colspan="2">Unique</td></tr>
+		#end_flag:unique#
+
+		#begin_flag:slot#
+		<tr><td colspan="2">{SLOT_TYPE}</td></tr>
+		#end_flag:slot#
+
+		#begin_flag:armor#
+		<tr><td colspan="2">{ARMOR} Armor</td></tr>
+		#end_flag:armor#
+
+		#begin_flag:dmg1#
+		<tr>
+			<td>{DMG1_RANGE} Damage</td>
+			<td align="right">Speed: {WEAPON_SPEED}</td>
+		</tr>
+		<tr><td colspan="2">({WEAPON_DPS} damage per second)</td></tr>
+		#end_flag:dmg1#
+
+		@begin_row:stats@
+		<tr><td colspan="2">{stats.1}</td></tr>
+		@end_row:stats@
+
+		#begin_flag:quest#
+		<tr><td colspan="2"><a class="quest" href="{QUEST_URL}">This Item Begins a Quest</a></td></tr>
+		#end_flag:quest#
+
+		#begin_flag:reqlvl#
+		<tr><td colspan="2"><span class="req">Requires Level {REQ_LEVEL}</span></td></tr>
+		#end_flag:reqlvl#
+
+		@begin_row:spells@
+		<tr><td colspan="2"><span class="itemspell"><a href="{spells.2}">{spells.1}</a></span></td></tr>
+		@end_row:spells@
+
+		#begin_flag:descrip#
+		<tr><td colspan="2"><span class="descrip">{DESCRIPTION}</span></td></tr>
+		#end_flag:descrip#
+
+		#begin_flag:set#
+		<tr><td colspan="2"><br/><a class="quest" href="{ITEMSET_URL}">{SET_NAME}</a></td></tr>
+		#end_flag:set#
+
+	</table>
+</div>

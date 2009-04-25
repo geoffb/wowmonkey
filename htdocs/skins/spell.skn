@@ -1,0 +1,23 @@
+%include:head.skn%
+
+<h1>Spell: {SPELL_NAME}</h1>
+
+<img src="{ICON_SRC}" />
+
+<div class="section">
+	<div class="section_title">Description</div>
+	<div class="section_body">
+		{FINAL_TEXT}
+	</div>
+</div>
+
+<table>
+@begin_row:props@
+<tr>
+	<td>{props.1}</td>
+	<td>{props.2}</td>
+</tr>
+@end_row:props@
+</table>
+
+%include:foot.skn%

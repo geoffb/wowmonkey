@@ -1,0 +1,12 @@
+%include:head.skn%
+
+<h1>News</h1>
+
+@begin_row:news@
+<div class="section">
+	<div class="section_title">{news.1}</div>
+	<div class="section_body">{news.2}</div>
+</div>
+@end_row:news@
+
+%include:foot.skn%

@@ -1,0 +1,75 @@
+%include:head.skn%
+
+<h1>Quest: {QUEST_NAME}</h1>
+
+Quest Level: {LEVEL}<br/><br/>
+
+<div class="section">
+	<div class="section_title">Objective</div>
+	<div class="section_body">{QUEST_DESCRIPTION}</div>
+</div>
+
+#begin_flag:require#
+<div class="section">
+	<div class="section_title">Requirements</div>
+	<div class="section_body">
+
+		#begin_flag:obj#
+		Complete the following objectives:<br />
+		@begin_row:obj@
+		{obj.1}<br/>
+		@end_row:obj@
+		<br />
+		#end_flag:obj#
+
+		#begin_flag:collect#
+		Collect the following items:<br />
+		@begin_row:collect@
+		<a href="{collect.1}">{collect.2}</a> x{collect.3}<br/>
+		@end_row:collect@
+		<br />
+		#end_flag:collect#
+
+		#begin_flag:mob#
+		Kill the following creatures:<br />
+		@begin_row:mob@
+		<a href="{mob.1}">{mob.2}</a> x{mob.3}<br/>
+		@end_row:mob@
+		<br />
+		#end_flag:mob#
+
+	</div>
+</div>
+#end_flag:require#
+
+<div class="section">
+	<div class="section_title">Details</div>
+	<div class="section_body">{DETAILS}</div>
+</div>
+
+#begin_flag:reward#
+<div class="section">
+	<div class="section_title">Rewards:</div>
+	<div class="section_body">
+
+		#begin_flag:given#
+		You will recieve the following items:<br />
+		@begin_row:given@
+		<a href="{given.1}">{given.2}</a> x{given.3}<br />
+		@end_row:given@
+		<br />
+		#end_flag:given#
+
+		#begin_flag:choose#
+		You may choose from the following items:<br />
+		@begin_row:choose@
+		<a href="{choose.1}">{choose.2}</a> x{choose.3}<br/>
+		@end_row:choose@
+		<br />
+		#end_flag:choose#
+
+	</div>
+</div>
+#end_flag:reward#
+
+%include:foot.skn%

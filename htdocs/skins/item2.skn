@@ -1,0 +1,35 @@
+%include:head.skn%
+
+<h1>Item: {ITEM_NAME}</h1>
+
+{ITEM_BOX}
+
+<table>
+	<tr>
+	<td valign="top">
+		<img src="{ICON_SRC}" alt="{ITEM_NAME}" />
+	</td>
+	<td valign="top">
+		<table>
+		@begin_row:props@
+		<tr>
+			<td>{props.1}</td>
+			<td>{props.2}</td>
+		</tr>
+		@end_row:props@
+		</table>
+	</td>
+</tr>
+</table>
+
+<!--
+<hr />
+
+{USER_COMMENTS}
+
+<hr />
+
+{ADD_COMMENT}
+-->
+
+%include:foot.skn%

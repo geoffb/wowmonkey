@@ -1,0 +1,14 @@
+<form method="get" action="search2.php">
+	Advanced Creature Search:
+	<br/>
+	Change search category:&nbsp;
+	<select name="c" onchange="javascript:form.submit();">
+		<option value="0"></option>
+		<option value="1">Items</option>
+		<option value="2">Quests</option>
+		<option value="3" selected="true">Creature</option>
+	</select>
+	<br/>
+	Search text:
+	<input name="s" type="text"  value="{SEARCH_VALUE}" />
+</form>                                                                                                                                                                                               

@@ -1,0 +1,5 @@
+WoW Monkey
+
+*Abandoned project*
+
+An online database of World of Warcraft game data parse from client data files.

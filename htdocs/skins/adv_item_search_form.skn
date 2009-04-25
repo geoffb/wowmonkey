@@ -1,0 +1,36 @@
+<form method="get" action="search2.php">
+        <strong>Advanced Item Search</strong>
+        <br/>
+        Change search category:&nbsp;
+        <select name="c" onchange="javascript:form.submit();">
+                <option value="0"></option>
+                <option value="1" selected="selected">Items</option>
+                <option value="2">Quests</option>
+                <option value="3">Creature</option>
+        </select>
+        <br/><br/>
+        <fieldset>
+        <legend>Search Criteria</legend>
+                <label for="s">Search text:</label>
+                <input id="s" name="s" type="text" value="{SEARCH_VALUE}" />
+                <br/>
+                <label for="t">Type:</label>
+                <select id="t" name="t">
+                        <option value="0">All</option>
+                        <optgroup label="Armor">
+                                <option value="a0">All Armor</option>
+                                <option value="a1">Plate</option>
+                                <option value="a2">Mail</option>
+                                <option value="a3">Leather</option>
+                                <option value="a4">Cloth</option>
+                        </optgroup>
+                        <optgroup label="Weapon">
+                                <option value="w0">All Weapons</option>
+                                <option value="w1">Sword</option>
+                                <option value="w2">Mace</option>
+                                <option value="w3">Wand</option>
+                                <option value="w4">Gun</option>
+                        </optgroup>
+                </select>
+        </fieldset>
+</form>   

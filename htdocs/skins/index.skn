@@ -1,0 +1,23 @@
+%include:head.skn%
+
+<h1>Welcome to WoW Monkey!</h1>
+
+<p>This site aims to be a fast, yet full featured resource for Blizzard's hit mmorpg,
+World of Warcraft.</p>
+
+<p class="important">This site is currently in the ALPHA phase, so feel free to look around but don't expect everything to be 
+functional yet.</p>
+
+<p>Use the Search box in the upper right hand corner of the page to begin searching for items, creatures or 
+quests.</p>
+
+<p>
+	<h3>Sample Links</h3>
+	<a href="search.php?s=blade">Search results for &quot;Blade&quot;</a><br /><br />
+	<a href="itemset.php?i=218">Item Set: Battlegear of Wrath</a><br /><br />
+	<a href="item2.php?i=19019">Item: Thunderfury, Blessed Blade of the Windseeker</a><br /><br />
+	<a href="spell.php?i=21992">Spell: Thunderfury</a><br /><br />
+	<a href="quest.php?i=8784">Quest: Secrects of the Qiraji</a><br /><br />
+</p>
+
+%include:foot.skn%

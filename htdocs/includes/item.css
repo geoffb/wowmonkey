@@ -1,0 +1,100 @@
+.wowitem {
+	background-color:#333333;
+	border:solid 1px #ffffff;
+	color:#ffffff;
+	font-family:verdana, arial;
+	font-size:12px;
+	padding:4px;
+	line-height:16px;
+	width:300px;
+}
+
+.wowlink {
+	font-family:verdana, arial;
+}
+
+.wowitem table {
+	width:100%;
+}
+
+.wowitem table td {
+	color:#ffffff;
+}
+
+.q0, .q1, .q2, .q3, .q4, .q5 {
+	font-weight:bold;
+	font-size:14px;
+	font-family:arial, tahoma;
+}
+
+.q0 {
+	color:#aaaaaa;
+}
+
+.q1 {
+	color:#ffffff;
+}
+
+.q2 {
+	color:#33FF33;
+}
+
+.q3 {
+	color:#3366FF;
+}
+
+.q4 {
+	color:#9933FF;
+}
+
+.q5 {
+	color:#FF9933;
+}
+
+.req {
+	color:#FF3333;
+}
+
+.descrip {
+	color:#FFFF33;
+}
+
+.itemspell, .itemspell a {
+	color:#00FF00;
+}
+
+a.quest {
+	color:#FFCC66;
+}
+
+a.itemset {
+	color:#FFCC66;
+	font-size:11px;
+}
+
+.wowtable {
+	border:solid 1px #000;
+	border-collapse:collapse;
+}
+
+.wowtable th {
+	background-color:#aaaaCC;
+	color:#333366;
+	font-size:12px;
+	font-family:verdana, arial;
+	text-align:left;
+	padding:4px;
+	border:solid 1px #000;
+}
+
+.wowtable td {
+	padding:4px;
+	border:solid 1px #000;
+	background-color:#CCCCdd;
+}
+
+.wowtable td.item_col {
+	background-color:#333333;
+	padding-left:10px;
+	padding-right:10px;
+}

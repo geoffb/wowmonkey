@@ -1,0 +1,25 @@
+%include:head.skn%
+
+{MESSAGE}
+
+<h1>Feed me!</h1>
+
+<p>WoW Monkey is hungry...for data! Help us keep our database up to date with the latest and greatest data by uploading your World of WarCraft data files.</p>
+
+<p>World of Warcraft data files can be found in your \World of Warcraft\WDB\ folder.</p>
+
+<p>We currently accept the following files:
+	<ul>
+		<li>creaturecache.wdb</li>
+		<li>itemcache.wdb</li>
+		<li>questcache.wdb</li>
+	</ul>
+</p>
+
+<form enctype="multipart/form-data" method="post" action="{FORM_ACTION}">
+	<input type="hidden" name="MAX_FILE_SIZE" value="{MAX_FILE_SIZE}" />
+	File: <input type="file" name="datafile" /> (Max size: {MAX_MB}MB)<br /><br />
+	<input class="button" type="submit" value="Upload" />
+</form>
+
+%include:foot.skn%

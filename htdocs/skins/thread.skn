@@ -1,0 +1,18 @@
+{THREAD_TITLE}<br />
+<br />
+<table class="thread">
+	<colgroup>
+		<col width="200px" />
+		<col />
+	</colgroup>
+	<tr>
+		<th>Author</th>
+		<th>Message</th>
+	</tr>
+	@begin_row:posts@
+	<tr>
+		<td>{posts.1}</td>
+		<td>{posts.2}</td>
+	</tr>
+	@end_row:posts@
+</table>

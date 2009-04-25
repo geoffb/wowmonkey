@@ -1,0 +1,50 @@
+%include:head.skn%
+
+<h1>Item Set: {SET_NAME}</h1>
+
+<div class="section">
+	<div class="section_title">Set Bonuses</div>
+	<div class="section_body">
+		<table>
+			@begin_row:bonus@
+			<tr>
+				<td>{bonus.1}:</td>
+				<td><a href="{bonus.3}">{bonus.2}</a></td>
+			</tr>
+			@end_row:bonus@
+		</table>
+	</div>
+	<div class="section_title">Set Stats</div>
+	<div class="section_body">
+		<table>
+			@begin_row:stats@
+			<tr>
+				<td>{stats.1}:</td>
+				<td>{stats.2}</td>
+			</tr>
+			@end_row:stats@
+		</table>
+	</div>
+	<div class="section_title">Set Resistances</div>
+	<div class="section_body">
+		<table>
+			@begin_row:resists@
+			<tr>
+				<td>{resists.1}:</td>
+				<td>{resists.2}</td>
+			</tr>
+			@end_row:resists@
+		</table>
+	</div>
+</div>
+
+<table>
+	@begin_row:items@
+	<tr>
+		<td valign="top">{items.1}</td>
+		<td valign="top">{items.2}</td>
+	</tr>
+	@end_row:items@
+</table>
+
+%include:foot.skn%

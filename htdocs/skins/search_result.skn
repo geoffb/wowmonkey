@@ -1,0 +1,51 @@
+%include:head.skn%
+
+{SEARCH_BOX}
+<hr/>
+Jump to: <a href="#quests">Quests</a>, <a href="#items">Items</a>, <a href="#spells">Spells</a>
+<hr />
+<a name="quests"></a>
+Found {NUM_QUESTS} spell(s).<br /><br />
+<table class="wowtable">
+	<tr>
+		<th>Quest</th>
+	</tr>
+	@begin_row:quests@
+	<tr>
+		<td><a href="{quests.2}">{quests.1}</a></td>
+	</tr>
+	@end_row:quests@
+</table>
+<hr/>
+<a name="items"></a>
+Found {NUM_ITEMS} item(s).<br /><br />
+<table class="wowtable">
+	<tr>
+		<th>&nbsp;</th>
+		<th>Item</th>
+		<th>Req. Level</th>
+	</tr>
+	@begin_row:items@
+	<tr>
+		<!-- <td><input type="checkbox" /> -->
+		<td><img width="40" height="40" src="{items.3}" /></td>
+		<td class="item_col">{items.1}{items.4}</td>
+		<td>{items.2}</td>
+	</tr>
+	@end_row:items@
+</table>
+<hr/>
+<a name="spells"></a>
+Found {NUM_SPELLS} spell(s).<br /><br />
+<table class="wowtable">
+	<tr>
+		<th>Spell</th>
+	</tr>
+	@begin_row:spells@
+	<tr>
+		<td><a href="{spells.2}">{spells.1}</a></td>
+	</tr>
+	@end_row:spells@
+</table>
+
+%include:foot.skn%
